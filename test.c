@@ -16,9 +16,20 @@ int main()
     printf("original : %d, ft : %d\n\n", isdigit('='), ft_isdigit('='));
 
     printf("isalnum :\n");
+    printf("original : %d, ft : %d\n", isalnum('9'), ft_isalnum('9'));
+    printf("original : %d, ft : %d\n\n", isalnum('='), ft_isalnum('='));
+
     printf("isascii :\n");
+    printf("original : %d, ft : %d\n", isascii('8'), ft_isascii('8'));
+    printf("original : %d, ft : %d\n\n", isascii('~'), ft_isascii('~'));
+
     printf("isprint :\n");
+    printf("original : %d, ft : %d\n", isprint('8'), ft_isprint('8'));
+    printf("original : %d, ft : %d\n\n", isprint('~'), ft_isprint('~'));
+
     printf("strlen :\n");
+    printf("original : %d, ft : %d\n", strlen("Bonjour !"), ft_strlen("Bonjour !"));
+
     printf("memset :\n");
     printf("bzero :\n");
     printf("memcpy :\n");

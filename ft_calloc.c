@@ -9,7 +9,9 @@ void *calloc(size_t nmemb, size_t size)
 	dest = malloc(lenght);
 	if (dest == NULL)
 		return (NULL);
+        
     if (dest)
         ft_bzero(dest, lenght);
+
 	return (dest);
 }

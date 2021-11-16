@@ -1,9 +1,9 @@
 SRCS = libft.h *.c
 
-all: compile lib
+all: compile lib clean
 
 compile:
-	gcc -c -Wall -Werror -Wextra $(SRCS)
+	gcc -Wall -Wextra $(SRCS)
 
 lib:
 	ar -r libft.a *.o

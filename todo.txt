@@ -1,0 +1,36 @@
+LIBC
+faire attention à tous les mem + bzero (type void)
+memccpy (not perfect at all)
+memmove (diff with memcpy?)
+memcmp (à verif)
+strlcat
+strchr
+strrchr
+strstr
+strnstr
+calloc
+
+OTHERS
+memalloc
+memdel
+strnew
+strdel
+strclr
+striter
+striteri
+strmap
+strmapi
+strequ
+strnequ
+strsub
+strtrim
+strsplit
+itoa (à peine commencé)
+
+BONUS
+lstnew
+lstdelone
+lstdel
+lstadd
+lstiter
+lstmap
